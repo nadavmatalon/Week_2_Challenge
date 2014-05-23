@@ -1,1 +1,36 @@
-Explain what a branch is, in your own words
+Explanation of what a branch is (in my own words):
+
+A new branch is typically created to generate an independent “line of development" which breaks off of the main development line or “trunk” at a given point. The new branch runs parallel to the main development line, and may be merged back to the main line later on. 
+
+The purpose of creating a new branch is to preserve the integrity of the main development line (or “trunk”).
+
+To get a list of existing branches in a local repository, go into the repo folder in terminal and type:
+
+git branch
+
+
+To create a new branch:
+
+git branch <new_branch_name>
+
+
+To switch between branches:
+
+git checkout <branch_name>
+
+
+To delete a branch (Git will prevent deletion if there are unmerged changes in that branch):
+
+git branch -d <branch_name>
+
+
+To force the deletion of a brach with unmerged changes:
+
+git branch -D <branch_name>
+
+
+To rename the current active branch:
+
+git branch -m <branch>
+
+
