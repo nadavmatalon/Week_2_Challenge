@@ -1,1 +1,13 @@
-Explain what the "upstream" remote is usually used for, in your own words
+Explanation of what the term "upstream" remote is usually used for (in my own words)
+
+The term “upstream” is typically used to describe the direction of data flow between local and remote repositories relative to a particular repository.
+
+(note that a single local repo may have multiple remote repos linked to it).
+
+(Also, the default name given by Git to the remote repo from which the local repo was cloned is “origin”)
+
+In this context, when information is pushed from a local repo to a remote repo, the pushing process is taken to represent movement in the “upstream” direction. 
+
+Generally speaking, when pulling or cloning from a remote repo to a local one, this is seen as “down streaming” from the perspective of the local repo.
+
+By the same token, when pushing from the local repo to the remote repo, this is seen as “upstreaming” from the perspective of the local repo.
