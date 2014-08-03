@@ -1,1 +1,17 @@
-Explain what git clone does, in your own words
+Explanation of what git clone does (in my own words)
+
+There are 2 ways to create a local repository. The first is to create it manually in terminal (using “git init”). The second is to “clone” (or copy) a remote repository from a host (like GitHub), thereby creating a new local repository which is an exact copy of the remote repository.
+
+The cloning process is sometimes referred to as being in the “downstream” direction relative to the local repository (information is “down-streamed” from the host to the local machine).
+
+To clone a repository, first copy the “clone url” from the remote repository host (preferably using the SSH address which is more secure, rather than the HTML one).
+
+Next, type the following command in terminal (while positioned in the relevant location in the file system where the cloned local repository is to be placed):
+
+git clone <url address>
+
+Executing this command will create a local repository folder which is an exact copy of the remote repository.
+
+By default, the cloned local repository folder will have the same name as the remote original. However, it is possible to change that name by adding a new name at the end of the clone command:
+
+git clone <url address> <new name for local repository>
