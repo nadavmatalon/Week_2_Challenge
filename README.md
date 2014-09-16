@@ -3,10 +3,11 @@
 ##Makers Academy | Week 2 | Challenge | Part I
 
 
-This repo contians the answer to __Week 3 Friday Challange (Part I)__ as part 
+This repo contians my answer to __Week 2 Friday Challange (Part I)__ as part 
 of the course at [Makers Academy](http://www.makersacademy.com/).
 
-The goal of this challange was to continue practicing working with [Github](http://github.com)
+The goal of this challange was to continue practicing working with 
+[Github](http://github.com)
 
 A summary of the guidelines for this challange:
 
